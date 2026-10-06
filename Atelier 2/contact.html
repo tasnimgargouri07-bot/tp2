@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+    <fieldset>
+        <legend>contactez-moi</legend>
+        <label for="r1">civilité:monsieur</label>
+        <input type="radio" id="r1" name="senda" checked>
+        <label for="r2">madame</label>
+        <input type="radio" id="r2"name="genre">
+        <label for="r3">madamoiselle</label>
+        <input type="radio" id="r3" name="genre">
+        <br> <br>
+        <label for="t1">nom:</label>
+        <input  type="text" id="t1" placeholder="votre nom" required>
+         <label for="t2">prenom:</label >
+        <input type="text" id="t2" placeholder="votre prenom" required>
+        <br> <br>
+        <label for="t3">email:</label >
+        <input type="email" id="t3" placeholder="votre email" required>
+        <label for="t4">telephone:</label>
+        <input type="tel" id="t4" placeholder="votre telephone" required pattern="9[0-9]{7}" maxlength="8">
+        <br> <br> 
+        <label for="t5">sujet:</label>
+        <input type="text" id="t5" placeholder="votre sujet" required>
+        <br> <br>
+        <label for="t6">message:</label>
+         <br><br>
+        <textarea name="" id="t6" rows="10" cols="30" required></textarea>
+        <br><br>
+        <input type="submit" value="envoyer">
+        <input type="reset" value="annuler">
+    </fieldset>
+   </form> 
+</body>
+</html>
